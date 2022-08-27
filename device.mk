@@ -256,10 +256,8 @@ PRODUCT_PACKAGES += \
 
 # Init scripts
 PRODUCT_PACKAGES += \
-    fstab.default \
-    fstab.default.ramdisk \
-    fstab.emmc \
-    fstab.emmc.ramdisk \
+    fstab.qcom \
+    fstab.qcom.ramdisk \
     init.class_main.sh \
     init.mdm.sh \
     init.qcom.class_core.sh \
