@@ -22,5 +22,11 @@
     "target_path"  : "kernel/xiaomi/gauguin",
     "remote"       : "pixel-devices",
     "branch"       : "twelve"
+  },
+  {
+    "repository"   : "vendor_qcom_opensource_libfmjni",
+    "target_path"  : "vendor/qcom/opensource/libfmjni",
+    "remote"       : "pixel",
+    "branch"       : "thirteen"
   }
 ]
