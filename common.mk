@@ -366,8 +366,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.power-service.xiaomi-libperfmgr
 
+ifneq ($(TARGET_BOARD_PLATFORM), lito)
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
+else
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/powerhint_lito.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
+endif
 
 # Public libraries
 PRODUCT_COPY_FILES += \
