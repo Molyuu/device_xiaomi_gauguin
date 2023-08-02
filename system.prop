@@ -36,7 +36,7 @@ ro.lmk.kill_timeout_ms=15
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 
 # Netflix
-ro.netflix.bsp_rev=Q8250-19134-1
+ro.netflix.bsp_rev?=Q8250-19134-1
 
 # Perf
 ro.vendor.qti.core_ctl_max_cpu=4
