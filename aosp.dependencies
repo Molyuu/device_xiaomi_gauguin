@@ -1,0 +1,32 @@
+[
+  { 
+    "repository"   : "vendor_xiaomi_gauguin",
+    "target_path"  : "vendor/xiaomi/gauguin",
+    "branch"       : "twelve",
+    "remote"       : "pixel-devices-blobs"
+  },
+  {
+    "repository"   : "vendor_xiaomi_sdm845-common-extra",
+    "target_path"  : "vendor/xiaomi/sdm845-common-extra",
+    "branch"       : "twelve",
+    "remote"       : "pixel-devices-blobs"
+  },
+  { 
+    "repository"   : "hardware_xiaomi",
+    "target_path"  : "hardware/xiaomi",
+    "remote"       : "pixel",
+    "branch"       : "twelve"
+  },
+  {
+    "repository"   : "kernel_xiaomi_gauguin",
+    "target_path"  : "kernel/xiaomi/gauguin",
+    "remote"       : "pixel-devices",
+    "branch"       : "twelve"
+  },
+  {
+    "repository"   : "vendor_qcom_opensource_libfmjni",
+    "target_path"  : "vendor/qcom/opensource/libfmjni",
+    "remote"       : "pixel",
+    "branch"       : "thirteen"
+  }
+]
